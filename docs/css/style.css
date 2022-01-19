@@ -1,0 +1,26 @@
+.table-striped > tbody > tr:nth-child(2n + 1) > td,
+.table-striped > tbody > tr:nth-child(2n + 1) > th {
+    background-color: #ffb7b2;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td,
+.table-striped > tbody > tr:nth-child(2n) > th {
+    background-color: #fee4e4;
+}
+
+.table th {
+    background-color: #ed265d;
+    color: white;
+}
+
+td > a {
+    color: black;
+}
+
+td > a:hover {
+    color: #ed265d;
+}
+
+.table .number {
+    color: #ed265d;
+}
